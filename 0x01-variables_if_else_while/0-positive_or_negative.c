@@ -6,8 +6,8 @@
  * code to determine whether n is positive or negative
  * if else statement
  *
- */
-int main (void)
+ *
+int main(void)
 {
 	int n;
 
