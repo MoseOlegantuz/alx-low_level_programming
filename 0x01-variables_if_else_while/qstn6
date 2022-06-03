@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - main block
- * Print numbers using putchar
- * 
- * Return: 0
- */
+* main - main block
+* Print numbers using putchar
+* 
+* Return: 0
+*/
 int main(void)
 {
 	int i;
