@@ -1,13 +1,10 @@
 #include <stdio.h>
 /**
-* main - block point
-*
-* print all combinations of single digit numbers
-*
-*
-* Return: 0
-*
-*/
+ * main - entry point
+ *
+ * Return: 0
+ *
+ */
 int main(void)
 {
 	int i;
