@@ -1,13 +1,10 @@
 #include <stdio.h>
+
 /**
-* main - block point
-*
-*
-* prints all numbers of base 16 in lowercase,
-* 
-*
-* Return: 0
-*/
+ * main - prints numbers base 16 lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
