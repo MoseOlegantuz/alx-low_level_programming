@@ -2,7 +2,7 @@
 /**
 * main - entry point
 * Print numbers using putchar
-* 
+*
 * Return: 0
 */
 int main(void)
