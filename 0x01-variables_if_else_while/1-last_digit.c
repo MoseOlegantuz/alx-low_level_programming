@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*
 * main - entry point
 *
 * statement based on last digit of number.
