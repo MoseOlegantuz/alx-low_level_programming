@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - block point
+* main - entry point
 *
 * Return: 0
 *
@@ -11,11 +11,11 @@ int main(void)
 
 	for (a = 'a'; a <= 'z' ; a++)
 	{
-		if (a == 'q' || a == 'e')
-		{
-			continue;
-		}
-		putchar(a);
+	if (a == 'q' || a == 'e')
+	{
+	continue;
+	}
+	putchar(a);
 	}
 	putchar('\n');
 	return (0);
