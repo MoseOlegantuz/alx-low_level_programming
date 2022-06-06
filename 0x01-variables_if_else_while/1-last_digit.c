@@ -2,13 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ * main - entry point
  *
+ * Description: statement for this question
  *
- * main - main block
- *
- * statement based on last digit of number.
- *
- * return: 0
+ * Return: 0
  *
  */
 int main(void)
