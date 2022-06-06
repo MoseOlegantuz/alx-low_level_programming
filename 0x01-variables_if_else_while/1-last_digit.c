@@ -2,15 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *
- *
- * main - main block
- *
- * statement based on last digit of number.
- *
- * return: 0
- *
- */
+*
+* main - entry point
+*
+* statement based on last digit of number.
+*
+* return: 0
+*
+*/
 int main(void)
 {
 int n;
