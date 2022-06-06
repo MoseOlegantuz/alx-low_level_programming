@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - main block
+ * main - entry point
  *
  * random number and print the number
  * and if it is positive, negative, or zero

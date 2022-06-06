@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
+<<<<<<< HEAD
  * main - entry point
  *
  * Description: statement for this question
@@ -9,6 +10,15 @@
  * Return: 0
  *
  */
+=======
+* main - entry point
+*
+* statement based on last digit of number.
+*
+* return: 0
+*
+*/
+>>>>>>> 87eb5dd1f1ee62f2f0f106596f608c536a54a808
 int main(void)
 {
 int n;
