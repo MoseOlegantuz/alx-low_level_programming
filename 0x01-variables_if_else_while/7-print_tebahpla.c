@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-* main - block point
+* main - entry point
 *
 * print lowercase alphabet in reverse
-* 
+*
 * Return: 0
 *
 */

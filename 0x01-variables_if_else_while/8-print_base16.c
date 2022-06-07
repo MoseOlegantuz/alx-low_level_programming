@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - prints numbers base 16 lowercase,
  * followed by a new line
