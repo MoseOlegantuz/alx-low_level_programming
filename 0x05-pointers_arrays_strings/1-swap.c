@@ -5,7 +5,6 @@
  * @x: int pointer type
  * @y: int pointer type
  */
-
 void swap_int(int *x, int *y)
 {
 	int z;
