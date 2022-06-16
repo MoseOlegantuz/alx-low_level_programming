@@ -1,7 +1,11 @@
 #include "main.h"
 /**
- * print_number - Prints an integer.
- * @n: The integer to be printed.
+ * print_number - fuction to print an integer.
+ * 
+ * Description: prints an integer
+ * 
+ * @n: The parameter of type int, input int
+ * 
  */
 void print_number(int n)
 {
