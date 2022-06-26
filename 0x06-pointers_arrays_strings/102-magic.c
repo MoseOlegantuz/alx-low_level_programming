@@ -16,8 +16,15 @@ p = &n;
    * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
+<<<<<<< HEAD
 *(p + 5) = 98;
   /* ...so that this prints 98\n */
 printf("a[2] = %d\n", a[2]);
 return (0);
+=======
+ *(p + 5) = 98;
+ /* ...so that this prints 98\n */
+  printf("a[2] = %d\n", a[2]);
+ return (0);
+>>>>>>> d2e1f194b6b232f384518e3db7c07c60bcad3351
 }
