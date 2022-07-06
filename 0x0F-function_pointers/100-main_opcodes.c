@@ -7,21 +7,37 @@
  */
 int main(int argc, char *argv[])
 {
-	unsigned char bytes;
-	unsigned int i;
+int bytes, index;
+	int (*address)(int, char **) = main;
+	unsigned char opcode;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		exit(1);
 	}
-	if (argv[1] < 0)
+
+	bytes = atoi(argv[1]);
+
+	if (bytes < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
-	for (i = 0; atoi(argv[1]) > i ; i++)
+
+	for (index = 0; index < bytes; index++)
 	{
-		printf("%x ", *((unsigned char *)(&main + i)));
+		opcode = *(unsigned char *)address;
+		printf("%.2x", opcode);
+
+		if (index == bytes - 1)
+			continue;
+		printf(" ");
+
+		address++;
 	}
+
+	printf("\n");
+
+	return (0);
 }
